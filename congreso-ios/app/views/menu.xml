@@ -1,0 +1,20 @@
+<Alloy>
+    <View class="container">
+        <ListView id="listView">
+            <Templates>
+                <ItemTemplate name="menuItem" class="menuItem">
+                    <Label bindId="iconLabel" class="iconLabel"></Label>
+                    <Label bindId="titleLabel" class="titleLabel"></Label>
+                </ItemTemplate>
+            </Templates>
+            <ListSection>
+                <ListItem iconLabel:text="\uf2c7" titleLabel:text="Registro" itemId="registro"></ListItem>
+                <ListItem iconLabel:text="\uf3a3" titleLabel:text="Sede" itemId="sede"></ListItem>
+                <ListItem iconLabel:text="\uf2d1" titleLabel:text="Agenda" itemId="agenda"></ListItem>
+                <ListItem iconLabel:text="\uf2d8" titleLabel:text="Ponentes" itemId="ponentes"></ListItem>
+                <ListItem iconLabel:text="\uf4cd" titleLabel:text="Multimedia" itemId="multimedia"></ListItem>
+                <ListItem iconLabel:text="\uf36b" titleLabel:text="Patrocinadores" itemId="patrocinadores"></ListItem>
+            </ListSection>
+        </ListView>
+    </View>
+</Alloy>

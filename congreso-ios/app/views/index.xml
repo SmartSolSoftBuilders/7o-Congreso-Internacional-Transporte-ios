@@ -1,0 +1,19 @@
+<Alloy>
+	<Widget src="kr.yostudio.drawer" 
+	    onDraweropen="onDrawerOpen" 
+	    onDrawerclose="onDrawerClose">
+		<View class="menuWrap" role="leftView">
+			<Require id="menuC" src="menu">
+			</Require>
+		</View>
+		<Window platform="ios" role="centerWindow" title="Noticias">
+			<LeftNavButton>
+				<View>
+					<Button  class="ion-android-menu menuBtn" onClick="onMenuButtonClick"/>
+				</View>
+			</LeftNavButton>
+			<Require src="main" id="mainC">
+			</Require>
+		</Window>
+	</Widget>
+</Alloy>
